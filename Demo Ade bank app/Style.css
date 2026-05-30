@@ -1,0 +1,114 @@
+*{
+  margin:0 ;
+  padding:0 ;
+}
+body{
+  font-family:'Sora', sans-serif;
+  background:linear-gradient(135deg,#B2B8C2,#9EB7B5);
+}
+.background{
+  margin: 0;
+  background:linear-gradient(135deg,#899129,#9DD252,#526AD2,#52D2BD);
+  height:max-container;
+}
+.intro{
+  justify-self:center ;
+  align-items:center ;
+  width:300px;
+  height:auto ;
+  margin:150px;
+  padding:20px ;
+  border: 1px solid #000;
+  box-shadow: 1px 6px 6px 6px #464753;
+}
+
+.form{
+  display:block ;
+}
+label{
+  align-items:center ;
+  display:block;
+  margin-top:10px;
+  font-size:15px ;
+  font-weight:bold;
+}
+#textField,#password{
+  padding:5px ;
+  font-size: 20px;
+  height: 1.5rem;
+  width: 100%;
+  border:none;
+  background:#FFFFFF9C;
+}
+#loginBtn{
+  font-size:20px ;
+  font-weight: bold;
+  height:3rem;
+  width:200px;
+  margin-top:15px ;
+  margin-left:30px ;
+  background: #17BD2A;
+  border-radius: 10px;
+}
+#fP{
+  color: #67B;
+}
+#rem{
+  margin: 0;
+  font-size: 15px;
+  color: #FFBC02;
+}
+.sign{
+  padding-top:10px ;
+  color: #42445A;
+  display:flex;
+  flex-direction:column ;
+}
+#message{
+  color:#FF0000;
+}
+#balance{
+  font-family: 'DM Mono', monospace;
+  font-size:30px ;
+}
+.greeting{
+  display:flex;
+  gap:10px;
+}
+  
+#btn{
+  background:#6D73BA00 ;
+  height: 70px;
+  width: 70px;
+  border-radius:50%;
+  border:none;
+  
+}
+
+#btn:hover{
+  width: 80px;
+  height: 80px;
+  background:#6D73BAB5 ;
+}
+.bottom-nav{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  display:flex;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.nav-item{
+  font-size: 18px;
+  border: 1px solid snow;
+  border-radius: 8px;
+}
+.nav-item.active{
+  color:snow;
+  background:blue ;
+}
+#eye-icon{
+  cursor: pointer;
+}
